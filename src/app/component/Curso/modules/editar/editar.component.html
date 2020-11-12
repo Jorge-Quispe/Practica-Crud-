@@ -1,0 +1,6 @@
+<div class="container">
+    <label for="a" class="form control"> Editar Curso </label>
+    <input type="text" class="form-control" [(ngModel)]="curso.nombre" placeholder="Nombre">
+    <button class="btn btn-primary "(click)="modificarCurso()">Editar</button>
+    <button class="btn btn-danger" routerLink="/listar"> Cancelar</button>
+</div>

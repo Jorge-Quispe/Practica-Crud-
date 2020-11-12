@@ -1,0 +1,6 @@
+<div class="container">
+    <label for="a" class="form control"> Registrar Curso </label>
+    <input type="text" class="form-control" [(ngModel)]="cursoModel.nombre" placeholder="Nombre">
+    <button class="btn btn-primary " (click)="create()">Agregar</button>
+    <button class="btn btn-danger" routerLink="/listar"> Cancelar</button>
+</div>
